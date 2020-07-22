@@ -1,0 +1,81 @@
+/* texte body */
+	.inner-banner{	
+		position: absolute;
+		top: 18%;
+		right: 12%;
+		width: 100%;
+		text-align: center;	
+	}
+
+	body{
+		background-color: #E5FFFC;
+	}
+
+/* police font */
+	.name{
+		color: #002F2F;
+	}
+
+/* body responsive */
+	@media screen and (min-width: 700px) and (max-width: 2000px){
+	body{
+		/* overflow: hidden; */
+		background: url(contenu/img/img.jpg) fixed no-repeat;
+		background-size: cover;
+	}
+	}
+
+	@media screen and (max-width: 700px){
+	.name{
+		margin-left: 23%;
+	}
+	.fonction{
+		margin-left: 23%;
+	}
+	.time{
+		margin-left: 23%;
+	}
+	body{
+		background: url(contenu/img/imgphone.png) fixed no-repeat;
+		background-size: cover;
+	}
+
+	}
+
+/* bandeau_contact */
+	.footer{
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #34393E;
+		height: 60px;
+	}
+	.PHONE{
+		padding-top: 15px;
+		height: 50px;
+		width: 40px;
+		margin-left: 15%;
+	}
+	.MAIL{
+		padding-top: 15px;
+		height: 50px;
+		width: 45px;
+		margin-left: 16%;
+	}
+	.LINK{
+		padding-top: 15px;
+		height: 50px;
+		width: 40px;
+		margin-left: 17%;
+	}
+	.mobilesOnly{
+		visibility: hidden;
+	}
+	.BUZZ{
+		padding-top: 15px;
+		height: 50px;
+		width: 90px;
+		margin-left: 28%;
+	}
