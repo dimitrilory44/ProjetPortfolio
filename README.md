@@ -7,7 +7,7 @@ Ce projet a pour but de vous présenter mon parcours ainsi que mes compétences 
 
 ## 🌱 Branches principales
 
-- **[master](https://github.com/dimitrilory44/ProjetPortfolio/tree/legacy)** : Branche stable avec la version actuelle de l'application.
+- **[legacy](https://github.com/dimitrilory44/ProjetPortfolio/tree/legacy)** : Branche stable avec la version actuelle de l'application.
 - **[rewrite](https://github.com/dimitrilory44/ProjetPortfolio/tree/rewrite)** : Branche de réécriture complète du projet, avec une nouvelle structure et des améliorations.
 
 ---
